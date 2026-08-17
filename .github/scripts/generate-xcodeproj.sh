@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../.."
 
 if ! command -v xcodegen >/dev/null 2>&1; then
   echo "XcodeGen is required. Install with: brew install xcodegen" >&2

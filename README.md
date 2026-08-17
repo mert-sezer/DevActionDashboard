@@ -89,7 +89,7 @@ Ad-hoc signed builds (the default for this open-source project) are blocked by G
 shasum -a 256 -c DevActionDashboard-*.sha256
 ```
 
-A Developer ID signature and Apple notarization remove the Gatekeeper warning. That requires a paid Apple Developer Program membership. Set `CODESIGN_IDENTITY` (and optional notarization secrets) when running `./Scripts/package-dmg.sh`. GitHub Actions uses the same values if they are stored as repository secrets.
+A Developer ID signature and Apple notarization remove the Gatekeeper warning. That requires a paid Apple Developer Program membership. Set `CODESIGN_IDENTITY` (and optional notarization secrets) when running `./.github/scripts/package-dmg.sh`. GitHub Actions uses the same values if they are stored as repository secrets.
 
 ## Getting started
 
@@ -105,7 +105,7 @@ The Xcode project is generated from [`project.yml`](project.yml) with [XcodeGen]
 
 ```bash
 brew install xcodegen   # once
-./Scripts/generate-xcodeproj.sh
+./.github/scripts/generate-xcodeproj.sh
 ```
 
 ## Architecture

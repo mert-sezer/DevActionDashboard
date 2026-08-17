@@ -111,8 +111,8 @@ TestResults/
 # Screenshot capture scratch
 docs/images/raw/
 
-# Screenshot working files
-docs/images/raw/
+# Local tooling (not published)
+/Scripts/
 
 # Patches / junk
 *.orig

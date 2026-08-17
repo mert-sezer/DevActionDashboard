@@ -21,22 +21,16 @@ Thank you for contributing.
 After adding or moving source files, regenerate the Xcode project:
 
 ```bash
-./Scripts/generate-xcodeproj.sh
+./.github/scripts/generate-xcodeproj.sh
 ```
 
 To build a drag-install DMG:
 
 ```bash
-./Scripts/package-dmg.sh
+./.github/scripts/package-dmg.sh
 ```
 
 The disk image lands in `dist/`. Ad-hoc signing is the default. Developer ID signing and notarization are documented in the script header.
-
-To refresh the README demo GIF and screenshots from a live window:
-
-```bash
-./Scripts/capture-readme-media.sh
-```
 
 ## Pull request checklist
 

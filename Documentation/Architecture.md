@@ -29,7 +29,6 @@ DevActionDashboard/
   Shared/          Design tokens and reusable UI
   Resources/       Asset catalog
 Tests/
-Scripts/
 Documentation/
 ```
 

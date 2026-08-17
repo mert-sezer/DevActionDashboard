@@ -7,12 +7,12 @@ set -euo pipefail
 # the user opens the app once via right-click → Open.
 #
 # Developer ID (paid Apple Developer Program):
-#   CODESIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" ./Scripts/package-dmg.sh
+#   CODESIGN_IDENTITY="Developer ID Application: Your Name (TEAMID)" ./.github/scripts/package-dmg.sh
 #
 # Optional notarization after a Developer ID sign:
-#   NOTARIZE=1 APPLE_ID=... APPLE_TEAM_ID=... APPLE_APP_SPECIFIC_PASSWORD=... ./Scripts/package-dmg.sh
+#   NOTARIZE=1 APPLE_ID=... APPLE_TEAM_ID=... APPLE_APP_SPECIFIC_PASSWORD=... ./.github/scripts/package-dmg.sh
 
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 cd "$ROOT"
 
 CONFIGURATION="${CONFIGURATION:-Release}"
