@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/icon.png" width="96" alt="Dev Action Dashboard icon">
+  <img src="docs/images/icon.svg" width="88" alt="Dev Action Dashboard">
 </p>
 
 <h1 align="center">Dev Action Dashboard</h1>
