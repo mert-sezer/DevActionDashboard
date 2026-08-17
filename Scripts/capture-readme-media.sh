@@ -119,7 +119,7 @@ root = Path("/Users/mertsezer/DevActionDashboard/docs/images")
 raw = root / "raw"
 out = root
 
-order = ["dashboard", "system", "processes", "network", "ports", "utilities", "palette"]
+order = ["dashboard", "processes", "network", "ports", "utilities", "palette"]
 frames = []
 for name in order:
     path = raw / f"{name}.png"
@@ -144,7 +144,7 @@ quantized[0].save(
     disposal=2,
 )
 
-for name in ["welcome", "dashboard", "processes", "ports", "utilities", "network", "palette"]:
+for name in ["welcome", "dashboard", "processes", "ports", "utilities", "network", "palette", "docker", "environment"]:
     src = raw / f"{name}.png"
     if src.exists():
         img = Image.open(src)
@@ -155,7 +155,7 @@ PY
 if command -v ffmpeg >/dev/null; then
   list="$RAW/gif.txt"
   : > "$list"
-  for name in dashboard system processes network ports utilities palette dashboard; do
+  for name in dashboard processes network ports utilities palette dashboard; do
     [[ -f "$RAW/$name.png" ]] || continue
     printf "file '%s'\nduration 1.6\n" "$RAW/$name.png" >> "$list"
   done
