@@ -1,0 +1,116 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+*.xcbkptlist
+*.xccheckout
+*.xcscmblueprint
+*.xcupload
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Build / distribution artifacts
+*.app
+*.dmg
+*.pkg
+*.xcarchive
+dist/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods / Carthage (not used)
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+fastlane/.env
+fastlane/.env.*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# IDEs / agents (local only)
+.idea/
+.cursor/
+.claude/
+.agent/
+.aider*
+.codex/
+.continue/
+.gemini/
+.specstory/
+.windsurf/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.swp
+*~
+.history/
+
+# Secrets / credentials — never commit
+.env
+.env.*
+!.env.example
+.envrc
+.netrc
+*.pem
+*.p8
+*.p12
+*.key
+*.keychain
+*.mobileprovision
+*.provisionprofile
+*.certSigningRequest
+AuthKey_*.p8
+Secrets.xcconfig
+Local.xcconfig
+**/Secrets.swift
+credentials.json
+notary-*.json
+
+# Coverage / logs / crash dumps
+coverage/
+*.xcresult
+*.profraw
+*.profdata
+swiftlint.report.json
+*.log
+*.crash
+*.ips
+TestResults/
+
+# Patches / junk
+*.orig
+*.rej
+*.bak
+*.tmp
+*.temp
