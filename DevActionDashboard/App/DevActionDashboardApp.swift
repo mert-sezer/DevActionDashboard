@@ -2,7 +2,13 @@ import SwiftUI
 
 @main
 struct DevActionDashboardApp: App {
-    @State private var environment = AppEnvironment()
+    @State private var environment: AppEnvironment
+
+    init() {
+        let environment = AppEnvironment()
+        _environment = State(initialValue: environment)
+        ReadmeCaptureTour.schedule(environment: environment)
+    }
 
     var body: some Scene {
         WindowGroup {

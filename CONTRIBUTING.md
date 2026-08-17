@@ -32,6 +32,12 @@ To build a drag-install DMG:
 
 The disk image lands in `dist/`. Ad-hoc signing is the default. Developer ID signing and notarization are documented in the script header.
 
+To refresh the README demo GIF and screenshots from a live window:
+
+```bash
+./Scripts/capture-readme-media.sh
+```
+
 ## Pull request checklist
 
 - [ ] Change is covered by tests when logic is non-trivial

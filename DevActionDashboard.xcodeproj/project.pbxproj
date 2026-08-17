@@ -119,6 +119,7 @@
 		D065F27693D40B16C2A0718B /* EnvironmentToolingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC7DC3EBF66FCE38E53908 /* EnvironmentToolingTests.swift */; };
 		D378A1AD66B263732302AEED /* AppSidebarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AB664E2A9BD6EB431842C /* AppSidebarSection.swift */; };
 		D46A80038C3CFF0C020B1B2D /* MetricsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD3237F51B646E11BE10C1 /* MetricsFormatter.swift */; };
+		D4B9803E107A0E3C5D6FC756 /* ReadmeCaptureTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE27EE16B2204C96E25F0256 /* ReadmeCaptureTour.swift */; };
 		D6FCD319BFB33ED60156F1C2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366D268D76239C1A85CA26 /* AppError.swift */; };
 		D80987E5D15080657C18F33B /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018D74CC89F0149434FEFBC /* DesignTokens.swift */; };
 		D8E4E9F48BAB9026D6A0E479 /* MenuBarExtraRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273FE7445468F1DBE84B928 /* MenuBarExtraRoot.swift */; };
@@ -292,6 +293,7 @@
 		E3F4BD5FBBF030B20711A82F /* ProcessProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessProviding.swift; sourceTree = "<group>"; };
 		E829E31211EA94CA122CFBEC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		E9AC16E887835171E58E9569 /* ProcessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessesView.swift; sourceTree = "<group>"; };
+		EE27EE16B2204C96E25F0256 /* ReadmeCaptureTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmeCaptureTour.swift; sourceTree = "<group>"; };
 		F10AF4AEBB35BCD67C9C141E /* InstalledTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstalledTool.swift; sourceTree = "<group>"; };
 		F1F69BCBE6883DBADC3827E3 /* DevActionDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevActionDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42F48E980520F1D9B935921 /* LocalToolchainDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalToolchainDetector.swift; sourceTree = "<group>"; };
@@ -823,6 +825,7 @@
 				82FD9649B90A8D746CCD2A70 /* AppEnvironment.swift */,
 				7326D33464D6B4B414D9BE16 /* DefaultFeatureRegistry.swift */,
 				83E07CD5FED19642498261C4 /* DevActionDashboardApp.swift */,
+				EE27EE16B2204C96E25F0256 /* ReadmeCaptureTour.swift */,
 				03F47183E8C2022797C2D08E /* RootView.swift */,
 			);
 			path = App;
@@ -1175,6 +1178,7 @@
 				8B25F962B031B8A22E8A40FD /* ProcessesViewModel.swift in Sources */,
 				656EF7F999F04CCC81CFF994 /* PublicIPClient.swift in Sources */,
 				B89DBD65328443E40506C33A /* QRCodeGenerator.swift in Sources */,
+				D4B9803E107A0E3C5D6FC756 /* ReadmeCaptureTour.swift in Sources */,
 				6A559C4B9E064E53A5E8A365 /* RootView.swift in Sources */,
 				4DB0A232807CCC2DDF717A71 /* RunningProcess.swift in Sources */,
 				051FC27F888C173900D8BB68 /* SensitiveDisplay.swift in Sources */,

@@ -108,6 +108,12 @@ swiftlint.report.json
 *.ips
 TestResults/
 
+# Screenshot capture scratch
+docs/images/raw/
+
+# Screenshot working files
+docs/images/raw/
+
 # Patches / junk
 *.orig
 *.rej
